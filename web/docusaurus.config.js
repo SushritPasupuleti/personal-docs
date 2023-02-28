@@ -79,7 +79,12 @@ const config = {
 					},
 					{ to: '/blog', label: 'Blog', position: 'left' },
 					{
-						href: 'https://github.com/facebook/docusaurus',
+						label: '👨‍💻 Portfolio',
+						position: 'right',
+						href: 'https://sushritpasupuleti.github.io',
+					},
+					{
+						href: 'https://github.com/SushritPasupuleti',
 						label: 'GitHub',
 						position: 'right',
 					},

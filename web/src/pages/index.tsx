@@ -37,6 +37,21 @@ export default function Home(): JSX.Element {
 			{/*
 			*/}
 			<main>
+				<div style={{
+					display: 'flex',
+					justifyContent: 'center',
+				}}>
+					<img src={'https://media.tenor.com/Bks2Si272y4AAAAM/obi-wan-kenobi-hello-there.gif'}
+						style={{
+							width: '100%',
+							height: 'auto',
+							marginTop: '2rem',
+							// marginBottom: '2rem',
+							maxWidth: '500px',
+						}}
+					/>
+				</div>
+				<br />
 				<HomepageFeatures />
 				<hr />
 				<br />
