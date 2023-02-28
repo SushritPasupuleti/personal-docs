@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb=self.webpackChunkweb||[]).push([[1581],{9859:e=>{e.exports=JSON.parse('{"permalink":"/personal-docs/blog/tags/beginner-friendly","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

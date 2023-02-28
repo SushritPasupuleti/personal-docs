@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb=self.webpackChunkweb||[]).push([[118],{8685:s=>{s.exports=JSON.parse('{"label":"react-js","permalink":"/personal-docs/blog/tags/react-js","allTagsPath":"/personal-docs/blog/tags","count":1}')}}]);

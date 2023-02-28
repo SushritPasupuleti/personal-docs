@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkweb=self.webpackChunkweb||[]).push([[2577],{2341:e=>{e.exports=JSON.parse('{"label":"mobile-developer","permalink":"/dots-n-docs/blog/tags/mobile-developer","allTagsPath":"/dots-n-docs/blog/tags","count":1}')}}]);
