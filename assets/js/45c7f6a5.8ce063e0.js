@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb=self.webpackChunkweb||[]).push([[1940],{8939:s=>{s.exports=JSON.parse('{"label":"postgresql","permalink":"/dots-n-docs/blog/tags/postgresql","allTagsPath":"/dots-n-docs/blog/tags","count":1}')}}]);

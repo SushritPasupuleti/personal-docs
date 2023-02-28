@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkweb=self.webpackChunkweb||[]).push([[971],{7504:e=>{e.exports=JSON.parse('{"label":"mern-stack","permalink":"/blog/tags/mern-stack","allTagsPath":"/blog/tags","count":1}')}}]);

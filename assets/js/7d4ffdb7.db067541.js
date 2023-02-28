@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweb=self.webpackChunkweb||[]).push([[1334],{4835:e=>{e.exports=JSON.parse('{"label":"beginner-friendly","permalink":"/dots-n-docs/blog/tags/beginner-friendly","allTagsPath":"/dots-n-docs/blog/tags","count":1}')}}]);
