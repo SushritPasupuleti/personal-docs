@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Neovim
 
-My blazingly fast Neovim configuration.
+My blazingly fast Neovim configuration. See the config [here](https://github.com/SushritPasupuleti/dots/tree/main/nvim).
 
 ## What's included
 
@@ -48,7 +48,7 @@ All keyboard shortcuts so far.
 
 - <kbd>c</kbd> <kbd>w</kbd> Delete rest of the word and enter _Insert_ mode. It accepts `$` just like delete.
 
-- <kbd></kbd> Unindent line.
+- <kbd>&lt;</kbd> Unindent line.
 
 - <kbd>></kbd> Indent line.
 

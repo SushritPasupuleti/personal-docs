@@ -40,8 +40,13 @@ export default function Home(): JSX.Element {
 				<div style={{
 					display: 'flex',
 					justifyContent: 'center',
+					flexDirection: 'column',
+					alignItems: 'center',
+					marginTop: '2rem',
+					// marginBottom: '2rem',
 				}}>
-					<img src={'https://media.tenor.com/Bks2Si272y4AAAAM/obi-wan-kenobi-hello-there.gif'}
+					<h1>{`Thanks for checking this repository out.`}</h1>
+					<img src={'https://media.tenor.com/mjpHQ8PARoQAAAAd/hello-there-obi-wan-kenobi.gif'}
 						style={{
 							width: '100%',
 							height: 'auto',
@@ -61,7 +66,9 @@ export default function Home(): JSX.Element {
 					<div className="container">
 						<h1>{`Let's get started`}</h1>
 						<p className="hero__subtitle">{`Feel free to open a PR if you would like to correct or add to anything here :)`}</p>
-						<div className={styles.buttons}>
+						<div className={styles.buttons} style={{
+							marginTop: '2rem',
+						}}>
 							<Link
 								className="button button--secondary button--lg"
 								to="/docs/intro">
