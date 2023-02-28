@@ -41,9 +41,6 @@ Please do not clone this repo, it will most likely break your setup, this is cus
 
 :::
 
-follow these steps in sequence:
-
-
 ### tmux
 
 Setup oh-my-tmux:
@@ -73,7 +70,14 @@ Export Environment Variables in fish by creating a file at: `~/.config/fish/conf
 set -gx ENV_VAR "value"
 ```
 
+### Change Default Shell
+
+```bash
+chsh -s $(which fish)
+```
+
 ## Wrapping Up
 
 With this, you should have a working development environment.
 
+Make sure to reopen your terminal to see the changes.

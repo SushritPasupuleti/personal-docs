@@ -1,0 +1,36 @@
+---
+sidebar_position: 2
+---
+
+# (Optional) Windows Development Environment
+
+This is a collection of scripts and configuration files to setup a Windows for Development via WSL2.
+
+:::note
+This is a **WIP** and not all details are ironed out yet.
+:::
+
+## What's included
+
+- dotfiles for WSL2 (Ubuntu 20.04)
+
+- Installation scripts for WSL2 with Homebrew (for more current package versions)
+
+- Windows Terminal configuration
+
+- Windows Applications Installation using winget
+
+## Setup
+
+### Changing shells
+
+```bash
+vim /etc/shells
+```
+
+Add `/home/linuxbrew/.linuxbrew/bin/fish` to EOF.
+
+```bash
+chsh -s $(which fish)
+```
+
