@@ -11,7 +11,7 @@ Just refer to the Docker website.
 
 ## Setup Pihole
 
-- Use the run script [docker-run.sh](docker-run.sh) to setup Pihole.
+- Use the run script [docker-run.sh](https://github.com/SushritPasupuleti/Pihole-with-Proxmox/blob/main/docker-run.sh) to setup Pihole.
 
 - Replace ServerIP with your IP.
 
