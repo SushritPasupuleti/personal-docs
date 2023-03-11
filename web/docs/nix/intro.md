@@ -42,3 +42,11 @@ Just run:
 /nix/nix-installer uninstall
 ```
 
+## Setup `nix-env`
+
+Run this only once after installation:
+
+```bash
+nix-env --install
+```
+
