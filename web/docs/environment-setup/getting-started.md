@@ -28,6 +28,8 @@ Apart from the setup scripts, there are a few scripts that I created to make my 
 
 - `./scripts/emus.sh` - fuzzy find and start an Android simulator.
 
+- `./scripts/portkill.sh` - kill a process running on a given port.
+
 ## Setup
 
 Start by cloning the `dots` repository (it is not mandatory to clone this into your home directory, setup scripts will create symlinks where appropriate):
