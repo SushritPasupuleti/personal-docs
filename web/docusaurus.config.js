@@ -3,6 +3,9 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+// import SiteBG from '@site/static/img/bg-1.jpg';
+//@ts-ignore: next-line
+// const SiteBG = require('@site/static/img/bg.jpg');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -32,6 +35,7 @@ const config = {
 		defaultLocale: 'en',
 		locales: ['en'],
 	},
+	staticDirectories: ['public', 'static'],
 
 	presets: [
 		[
@@ -57,6 +61,27 @@ const config = {
 				},
 			}),
 		],
+	],
+
+	headTags: [
+		{
+			tagName: 'meta',
+			attributes: {
+				name: 'description',
+				content: 'Centralizing all my learnings.',
+			},
+
+		},
+		{
+			tagName: 'meta',
+			attributes: {
+				name: 'og:image',
+				content: 'img/bg.jpg',
+				// content: 'https://sushritpasupuleti.github.io/personal-docs/img/bg-1.jpg',
+				// content: SiteBG,
+			},
+		},
+
 	],
 
 	themeConfig:

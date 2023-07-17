@@ -11,7 +11,14 @@ Arduino CLI is a command line tool for compiling and uploading Arduino sketches.
 Check board list:
 
 ```bash
+arduino-cli core update-index
 arduino-cli board list
+```
+
+Install core:
+
+```bash
+arduino-cli core install arduino:avr
 ```
 
 Compile sketch:
@@ -32,5 +39,13 @@ If not, you can do the following:
 
 ```bash
 sudo chmod a+rw /dev/ttyACM0
+```
+
+Add libraries:
+
+```bash
+arduino-cli lib search Servo
+# Pick the right name from the list
+arduino-cli lib install "Servo"
 ```
 
