@@ -149,4 +149,3 @@ func main() {
 ```
 
 - Docs can be generated with `swag init`.
-
